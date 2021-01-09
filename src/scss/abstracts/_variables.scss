@@ -1,0 +1,32 @@
+$font: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial",
+  sans-serif;
+
+$light: rgb(242, 242, 247);
+$darker-light: rgb(229, 229, 234);
+$dark: rgb(28, 28, 30);
+$lighter-dark: rgb(44, 44, 46);
+$gray: rgb(142, 142, 147);
+$blue: rgb(64, 156, 255);
+$red: rgb(255, 69, 58);
+$teal: rgb(90, 200, 250);
+
+$themes: (
+  light: (
+    background: $light,
+    foreground: $darker-light,
+    primary: $blue,
+    scrollbar: $gray $light,
+    scrollbar-thumb: $gray,
+    scrollbar-track: $light,
+    text: $dark,
+  ),
+  dark: (
+    background: $dark,
+    foreground: $lighter-dark,
+    primary: $teal,
+    scrollbar: $lighter-dark $dark,
+    scrollbar-thumb: $lighter-dark,
+    scrollbar-track: $dark,
+    text: $light,
+  ),
+);

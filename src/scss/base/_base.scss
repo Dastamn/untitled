@@ -8,3 +8,11 @@
   outline: 0;
   outline: none;
 }
+
+body {
+  @include style-scrollbar;
+  @include themify("color", "text");
+  @include themify("background-color", "background");
+  font-family: $font;
+  transition: color 500ms ease, background-color 200ms linear;
+}
