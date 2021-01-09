@@ -1,7 +1,14 @@
 {
     "compilerOptions": {
       "jsx": "react",
+      "target": "es5",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "module": "commonjs",
+      "paths": {
+        "#root/*": ["./src/*"]
+      },
     },
-    "include": ["src"],
+    "include": ["src/**/*"],
     "exclude": ["node_modules"]
   }
